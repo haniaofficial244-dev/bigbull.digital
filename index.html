@@ -1,106 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BigBull Digital | Official</title>
-    <style>
-        /* Design Section */
-        body { font-family: 'Arial', sans-serif; margin: 0; color: #333; }
-        header { background: #001529; color: #ffcc00; padding: 40px 20px; text-align: center; }
-        nav { background: #002140; padding: 10px; text-align: center; }
-        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
-        
-        .container { max-width: 1100px; margin: auto; padding: 20px; }
-        
-        /* Packages Styling */
-        .package-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 25px; margin-top: 30px; }
-        section { padding: 40px 0; }
-        .card { border: 2px solid #eee; border-radius: 15px; padding: 20px; text-align: center; background: white; transition: 0.3s; }
-        .card:hover { border-color: #ffcc00; transform: translateY(-5px); }
-        .card img { width: 100%; border-radius: 10px; margin-bottom: 15px; }
-        .price { font-size: 24px; color: #27ae60; font-weight: bold; }
-        
-        /* Courses & Students Details */
-        .info-box { background: #f9f9f9; padding: 15px; border-radius: 8px; margin-top: 15px; text-align: left; font-size: 14px; }
-        .info-box h4 { margin-top: 0; color: #001529; }
-        
-        /* Leaders Styling */
-        .leader-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px; text-align: center; }
-        .leader-card img { width: 120px; height: 120px; border-radius: 50%; border: 4px solid #ffcc00; object-fit: cover; }
-        
-        .btn-whatsapp { background: #25d366; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 15px; font-weight: bold; }
-    </style>
-</head>
-<body>
+<!-- Main Content Area -->
+<main class="container">
 
-<header>
-    <h1>BIGBULL DIGITAL</h1>
-    <p>Professional Marketing Agency & Learning Hub</p>
-</header>
+    <h2 style="text-align:center; margin-top:30px;">Choose Your Path to Success</h2>
 
-<nav>
-    <a href="#packages">Packages</a>
-    <a href="#leaders">Our Leaders</a>
-    <a href="#about">About Us</a>
-</nav>
+    <!-- Packages Section using <section> instead of div -->
+    <section id="packages" class="package-grid">
 
-<div class="container">
-    <!-- Packages Section -->
-    <section id="packages">
-        <h2 style="text-align:center;">Our 4 Premium Packages</h2>
-        <div class="package-grid">
-            
-            <!-- Package 1 -->
-            <article class="card">
-                <img src="images/package1.jpg" alt="Little Pack">
+        <!-- Package 1: Little Pack -->
+        <article class="card">
+            <header>
+                <img src="images/little.jpg" alt="Little Pack Poster">
                 <h3>Little Pack</h3>
-                <p class="price">Rs. 2,000</p>
-                
-                <div class="info-box">
-                    <h4>Course Details:</h4>
-                    <ul>
-                        <li>Basic Graphic Design</li>
-                        <li>Social Media Marketing</li>
-                    </ul>
-                </div>
-
-                <div class="info-box">
-                    <h4>Successful Students:</h4>
-                    <p>Ayesha, Hamza, and 200+ others enrolled.</p>
-                </div>
-                
-                <a href="https://wa.me/923000000000" class="btn-whatsapp">Enroll via WhatsApp</a>
-            </article>
-
-            <!-- Isi tarah baaki 3 cards bhi copy paste karein -->
+            </header>
             
-        </div>
+            <p class="price">Rs. 5,000</p>
+            
+            <section class="info-box">
+                <h4>📚 Course Details:</h4>
+                <p>Basic Social Media Marketing, Canva Editing, and Lead Generation.</p>
+            </section>
+
+            <footer class="info-box" style="border-left: 3px solid #ffcc00;">
+                <h4>👥 Recently Enrolled:</h4>
+                <ul style="padding-left: 15px; margin: 0;">
+                    <li>Sana Khan (Student)</li>
+                    <li>Zeeshan Ahmed (Freelancer)</li>
+                </ul>
+            </footer>
+            
+            <nav>
+                <a href="https://wa.me/923000000000?text=I%20want%20to%20enroll%20in%20Little%20Pack" class="btn-whatsapp">Enroll Now</a>
+            </nav>
+        </article>
+
+        <!-- Package 2: Combo Pack -->
+        <article class="card">
+            <header>
+                <img src="images/combo.jpg" alt="Combo Pack Poster">
+                <h3>Combo Pack</h3>
+            </header>
+            
+            <p class="price">Rs. 10,000</p>
+            
+            <section class="info-box">
+                <h4>📚 Course Details:</h4>
+                <p>Advanced Graphic Design, FB Ads, and WhatsApp Automation.</p>
+            </section>
+
+            <footer class="info-box" style="border-left: 3px solid #ffcc00;">
+                <h4>👥 Recently Enrolled:</h4>
+                <ul style="padding-left: 15px; margin: 0;">
+                    <li>Ali Raza</li>
+                    <li>Hina Parvez</li>
+                </ul>
+            </footer>
+            
+            <nav>
+                <a href="https://wa.me/923000000000?text=I%20want%20to%20enroll%20in%20Combo%20Pack" class="btn-whatsapp">Enroll Now</a>
+            </nav>
+        </article>
+
+        <!-- Package 3: Shark Pack -->
+        <article class="card">
+            <header>
+                <img src="images/shark.jpg" alt="Shark Pack Poster">
+                <h3>Shark Pack</h3>
+            </header>
+            
+            <p class="price">Rs. 15,000</p>
+            
+            <section class="info-box">
+                <h4>📚 Course Details:</h4>
+                <p>Website Development, Video Editing, and High Ticket Closing.</p>
+            </section>
+
+            <footer class="info-box" style="border-left: 3px solid #ffcc00;">
+                <h4>👥 Recently Enrolled:</h4>
+                <ul style="padding-left: 15px; margin: 0;">
+                    <li>Usman Butt</li>
+                    <li>Sara Siddiqui</li>
+                </ul>
+            </footer>
+            
+            <nav>
+                <a href="https://wa.me/923000000000?text=I%20want%20to%20enroll%20in%20Shark%20Pack" class="btn-whatsapp">Enroll Now</a>
+            </nav>
+        </article>
+
+        <!-- Package 4: Shark Pro -->
+        <article class="card">
+            <header>
+                <img src="images/sharkpro.jpg" alt="Shark Pro Poster">
+                <h3>Shark Pro</h3>
+            </header>
+            
+            <p class="price" style="color: #d4af37;">Rs. 25,000</p>
+            
+            <section class="info-box">
+                <h4>📚 Course Details:</h4>
+                <p>Master Business Automation, 1-on-1 Mentorship, and Agency Scaling.</p>
+            </section>
+
+            <footer class="info-box" style="border-left: 3px solid #ffcc00;">
+                <h4>👥 Recently Enrolled:</h4>
+                <ul style="padding-left: 15px; margin: 0;">
+                    <li>Kamran Khan</li>
+                    <li>Zoya Shah</li>
+                </ul>
+            </footer>
+            
+            <nav>
+                <a href="https://wa.me/923000000000?text=I%20want%20to%20enroll%20in%20Shark%20Pro" class="btn-whatsapp">Enroll Now</a>
+            </nav>
+        </article>
+
     </section>
-
-    <hr>
-
-    <!-- Leaders Section -->
-    <section id="leaders">
-        <h2 style="text-align:center;">Meet Our 7 Leaders</h2>
-        <div class="leader-grid">
-            <!-- Leader 1 -->
-            <figure class="leader-card">
-                <img src="images/leader1.jpg" alt="Leader Name">
-                <figcaption>
-                    <strong>Leader Name</strong><br>
-                    <span>Rank: Diamond</span>
-                    <p>Expert in Sales</p>
-                </figcaption>
-            </figure>
-            <!-- Isi tarah 7 leaders poore karein -->
-        </div>
-    </section>
-</div>
-
-<footer style="text-align:center; padding:30px; background:#001529; color:white;">
-    <p>&copy; 2026 BigBull Digital. All Rights Reserved.</p>
-</footer>
-
-</body>
-</html>
+</main>
