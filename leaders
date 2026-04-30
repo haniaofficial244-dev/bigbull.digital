@@ -1,18 +1,101 @@
+<!-- Leaders & Team Section -->
 <section id="leaders" class="leader-section">
-    <h2>Our 7 Visionary Leaders</h2>
+    <header style="text-align:center; padding-bottom: 30px;">
+        <h2>Meet Our Visionary Leaders</h2>
+        <p>The driving force behind BigBull Digital's success</p>
+    </header>
+
     <section class="leader-grid">
         
-        <!-- Leader 1 -->
+        <!-- 1. CEO & Founder -->
         <figure class="leader-card">
-            <img src="images/leader1.jpg" alt="Name">
+            <img src="images/huzaifa.jpg" alt="Huzaifa Bin Faiz">
             <figcaption>
-                <strong>Leader Name</strong>
-                <p>Rank: Seven Star</p>
-                <small>Expert in Digital Sales</small>
+                <strong>Huzaifa Bin Faiz</strong>
+                <span class="rank">CEO & Founder</span>
+                <p>Strategic Vision & Leadership</p>
             </figcaption>
         </figure>
 
-        <!-- Isi tarah baaki 6 leaders ke liye <figure> banayein -->
+        <!-- 2. HOD -->
+        <figure class="leader-card">
+            <img src="images/mahreen.jpg" alt="Mahreen Hanafi">
+            <figcaption>
+                <strong>Mahreen Hanafi</strong>
+                <span class="rank">HOD - Department Head</span>
+                <p>Academic & Operational Excellence</p>
+            </figcaption>
+        </figure>
+
+        <!-- 3. Social Media Manager -->
+        <figure class="leader-card">
+            <img src="images/sameeha.jpg" alt="Sameeha Khan">
+            <figcaption>
+                <strong>Sameeha Khan</strong>
+                <span class="rank">Social Media Manager</span>
+                <p>Digital Branding Specialist</p>
+            </figcaption>
+        </figure>
+
+        <!-- 4. Chief Organizer Officer -->
+        <figure class="leader-card">
+            <img src="images/mawaddat.jpg" alt="Mawaddat Fatima">
+            <figcaption>
+                <strong>Mawaddat Fatima</strong>
+                <span class="rank">Chief Organizer Officer</span>
+                <p>Strategic Planning & Logistics</p>
+            </figcaption>
+        </figure>
+
+        <!-- 5. Team Leader -->
+        <figure class="leader-card">
+            <img src="images/aisha.jpg" alt="Aisha Islam">
+            <figcaption>
+                <strong>Aisha Islam</strong>
+                <span class="rank">Team Leader</span>
+                <p>Team Growth & Mentorship</p>
+            </figcaption>
+        </figure>
+
+        <!-- 6. Senior Supervisor -->
+        <figure class="leader-card">
+            <img src="images/sarah.jpg" alt="Sarah Khan">
+            <figcaption>
+                <strong>Sarah Khan</strong>
+                <span class="rank">Senior Supervisor</span>
+                <p>Quality Assurance & Support</p>
+            </figcaption>
+        </figure>
+
+        <!-- 7. Assistant -->
+        <figure class="leader-card">
+            <img src="images/rana-taha.jpg" alt="Rana Taha">
+            <figcaption>
+                <strong>Rana Taha</strong>
+                <span class="rank">Assistant</span>
+                <p>Operational Support</p>
+            </figcaption>
+        </figure>
+
+        <!-- 8. Social Media Manager (Samiha) -->
+        <figure class="leader-card">
+            <img src="images/samiha.jpg" alt="Samiha Khan">
+            <figcaption>
+                <strong>Samiha Khan</strong>
+                <span class="rank">Social Media Manager</span>
+                <p>Content Strategy Expert</p>
+            </figcaption>
+        </figure>
+
+        <!-- 9. Social Media Supervisor -->
+        <figure class="leader-card">
+            <img src="images/fatima.jpg" alt="Fatima Naveed">
+            <figcaption>
+                <strong>Fatima Naveed</strong>
+                <span class="rank">Social Media Supervisor</span>
+                <p>Digital Engagement Lead</p>
+            </figcaption>
+        </figure>
 
     </section>
 </section>
